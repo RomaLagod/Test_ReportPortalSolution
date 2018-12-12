@@ -1,0 +1,10 @@
+stages:
+  - build
+#only this branch
+Building solutions:             #Name of job
+  stage: build                  #Name of stage
+  script:                       #Bash commands
+   - C:\GitLab-Runner\builds\55f43d1e\0\arogggh\build.cmd
+  tags: 
+    - Windows_VM               #my-windows it's a tag of Azure VM
+  when: manual

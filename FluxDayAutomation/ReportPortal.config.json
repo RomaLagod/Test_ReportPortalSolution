@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-nunit/master/ReportPortal.NUnitExtension/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "http://atqc.westeurope.cloudapp.azure.com:8090/api/v1/",
+    "project": "fluxday",
+    "authentication": {
+      "uuid": "41672df0-337d-42ec-9aa4-8615f5d2dc00"
+    }
+  },
+  "launch": {
+    "name": "UI test for Fluxdai.io",
+    "description": "Acceptance tests",
+    "debugMode": true,
+    "tags": [ "Smoke1", "Category2" ]
+  }
+}
